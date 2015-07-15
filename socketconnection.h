@@ -5,6 +5,8 @@ class SocketConnection
 {
 public:
   SocketConnection();
+  bool ConnectSocket();
+
 };
 
 #endif // SOCKETCONNECTION_H
